@@ -1,0 +1,29 @@
+### IDEA
+.idea/*
+*.iml
+*.iws
+*.ipr
+!.idea/runConfigurations/
+!.idea/codeStyles/
+**/out/
+
+### Gradle
+.gradle
+build/
+
+# gradle gui config
+gradle-app.setting
+
+# gradle project cache
+.gradletasknamecache
+
+### Java
+*.class
+**/target/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Logs
+*.log
+

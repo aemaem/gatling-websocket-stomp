@@ -1,0 +1,24 @@
+plugins {
+    id 'com.github.lkishalmi.gatling' version '0.7.3'
+}
+
+group 'at.mmair.gatling'
+version '0.1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    jcenter()
+}
+
+gatling {
+    logLevel = "TRACE"
+    simulations = {
+        include "**/websocket/testing/SocketSimulation.scala"
+    }
+}
+
+dependencies {
+    gatling "org.scala-lang:scala-library:2.12.3"
+    gatling "org.apache.commons:commons-lang3:3.7"
+}
