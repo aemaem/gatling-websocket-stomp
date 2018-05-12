@@ -13,9 +13,6 @@ repositories {
 
 gatling {
     logLevel = "TRACE"
-    simulations = {
-        include "**/websocket/testing/SocketSimulation.scala"
-    }
 }
 
 dependencies {

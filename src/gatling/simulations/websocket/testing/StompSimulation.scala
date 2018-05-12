@@ -9,7 +9,7 @@ import org.apache.commons.lang3.{RandomStringUtils, RandomUtils}
 /**
   * Sample performance test with Gatling and STOMP over Websocket.
   */
-class SocketSimulation extends Simulation {
+class StompSimulation extends Simulation {
 
   val httpConfig: HttpProtocolBuilder = http
     .baseURL("http://localhost:8080")
